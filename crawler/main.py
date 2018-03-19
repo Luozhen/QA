@@ -17,7 +17,8 @@ headers = {'User-Agent': user_agent, 'Accept-Language': accept_lag, 'Referer': r
 
 request = urllib2.Request(url, headers=headers)
 response = urllib2.urlopen(request)
-print response.read()
+html = response.read()
+print type(html)
 
 
 enable_proxy = True
