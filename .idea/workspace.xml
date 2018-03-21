@@ -2,17 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4b3a7f73-c5d7-4fda-ac84-dae77db72aa4" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/crawler/crawl_baidu_tieba.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/crawler/crawl_insteresting.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/crawler/scrapy_test/scrapy_test/spiders/dtc_spider.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/learn_mxnet/ndarray.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/qa_complication/test/lr.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/qa_complication/test/test_keras.py" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/crawler/interesting_baike/crawl_insteresting.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wechat/wechat_qa.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wechat/wxpy.pkl" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/wechat/__init__.py" afterPath="$PROJECT_DIR$/crawl_data/tnb_ha" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/crawler/main.py" afterPath="$PROJECT_DIR$/crawler/main.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/crawl_data/data_tang" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/QA_m1" afterPath="$PROJECT_DIR$/QA_m1" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gluon-tutorials/chapter_convolutional-neural-networks/cnn-scratch.ipynb" afterPath="$PROJECT_DIR$/gluon-tutorials/chapter_convolutional-neural-networks/cnn-scratch.ipynb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gluon-tutorials/chapter_gluon-advances/hybridize.ipynb" afterPath="$PROJECT_DIR$/gluon-tutorials/chapter_gluon-advances/hybridize.ipynb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gluon-tutorials/chapter_gluon-basics/block.ipynb" afterPath="$PROJECT_DIR$/gluon-tutorials/chapter_gluon-basics/block.ipynb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gluon-tutorials/chapter_gluon-basics/parameters.ipynb" afterPath="$PROJECT_DIR$/gluon-tutorials/chapter_gluon-basics/parameters.ipynb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gluon-tutorials/chapter_natural-language-processing/glove-fasttext.ipynb" afterPath="$PROJECT_DIR$/gluon-tutorials/chapter_natural-language-processing/glove-fasttext.ipynb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gluon-tutorials/chapter_natural-language-processing/seq2seq-attention.ipynb" afterPath="$PROJECT_DIR$/gluon-tutorials/chapter_natural-language-processing/seq2seq-attention.ipynb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gluon-tutorials/chapter_natural-language-processing/word2vec.ipynb" afterPath="$PROJECT_DIR$/gluon-tutorials/chapter_natural-language-processing/word2vec.ipynb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gluon-tutorials/chapter_supervised-learning/dropout-scratch.ipynb" afterPath="$PROJECT_DIR$/gluon-tutorials/chapter_supervised-learning/dropout-scratch.ipynb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/learn_mxnet/.ipynb_checkpoints/dropout-checkpoint.ipynb" afterPath="$PROJECT_DIR$/learn_mxnet/.ipynb_checkpoints/dropout-checkpoint.ipynb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/learn_mxnet/dropout.ipynb" afterPath="$PROJECT_DIR$/learn_mxnet/dropout.ipynb" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -24,7 +26,7 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="lr.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="lr.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/qa_complication/test/lr.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="139">
@@ -36,11 +38,31 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="tnb_ha" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/crawl_data/tnb_ha">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="qaLSTMNet.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/QA_m1/qaLSTMNet.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="21" lean-forward="false" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="21" />
+            <state relative-caret-position="-243">
+              <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="data_tang" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/crawl_data/data_tang">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="1" lean-forward="false" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -121,6 +143,7 @@
         <option value="$PROJECT_DIR$/wxlzh/weixinInterface.py" />
         <option value="$PROJECT_DIR$/qa_complication/test/lr.py" />
         <option value="$PROJECT_DIR$/learn_mxnet/ndarray.py" />
+        <option value="$PROJECT_DIR$/crawl_data/data_tang" />
       </list>
     </option>
   </component>
@@ -187,6 +210,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="QA_m1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AQ" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AQ" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="QA_m1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="data" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -474,13 +515,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18383405" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32891566" sideWeight="0.49713877" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18915662" sideWeight="0.5028612" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23855421" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32891566" sideWeight="0.49713877" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17710844" sideWeight="0.49713877" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17710844" sideWeight="0.49713877" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32891566" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -541,16 +583,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/qa_complication/test/lr.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="714">
-          <caret line="46" column="30" lean-forward="false" selection-start-line="46" selection-start-column="28" selection-end-line="46" selection-end-column="30" />
-          <folding>
-            <element signature="e#1#21#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/QA_m1/qaLSTMNet.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -706,13 +738,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/crawl_data/tnb_ha">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2567">
-          <caret line="151" column="0" lean-forward="false" selection-start-line="151" selection-start-column="0" selection-end-line="151" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/QA_m1/main.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1462">
@@ -836,14 +861,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wechat/web_server.py" />
-    <entry file="file://$PROJECT_DIR$/QA_m1/qaLSTMNet.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="21" lean-forward="false" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/learn_mxnet/ndarray.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -868,6 +885,30 @@
       <provider selected="true" editor-type-id="ipnb-editor">
         <state>
           <selected id="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crawl_data/tnb_ha">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/QA_m1/qaLSTMNet.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-243">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crawl_data/data_tang">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="1" lean-forward="false" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
+          <folding />
         </state>
       </provider>
     </entry>
