@@ -1,3 +1,5 @@
+#!usr/bin/env python
+# coding:utf-8
 from math import exp
 from mxnet import gluon
 from mxnet import autograd
@@ -335,11 +337,11 @@ def train_and_predict_rnn(rnn, is_random_iter, epochs, num_steps, hidden_dim,
             num_examples += loss.size
 
         if e % pred_period == 0:
-            print("Epoch %d. Training perplexity %f" % (e, 
-                                               exp(train_loss/num_examples)))
+            print "Epoch %d. Training perplexity %f" % (e,
+                                               exp(train_loss/num_examples))
             for seq in seqs:
-                print(' - ', predict_rnn(rnn, seq, pred_len, params,
+                print ' - ', predict_rnn(rnn, seq, pred_len, params,
                       hidden_dim, ctx, idx_to_char, char_to_idx, get_inputs,
-                      is_lstm))
-            print()
+                      is_lstm)
+            print "\n"
 
