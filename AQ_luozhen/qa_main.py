@@ -1,10 +1,9 @@
 #!usr/bin/env python
 # coding:utf-8
 
-import os
 import logging
 logging.basicConfig(filename='log/logger.log', level=logging.INFO)
-import term_handle
+
 
 def get_docs(question):
 
