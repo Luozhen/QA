@@ -4,7 +4,7 @@
 import os
 import logging
 logging.basicConfig(filename='log/logger.log', level=logging.INFO)
-
+import term_handle
 
 def get_docs(question):
 
@@ -25,12 +25,8 @@ def qa_pipeline():
 
 def train_pipeline():
     # train pipeline is a pipeline to train model online for QA
-    if os.path.exists('words_model'):
-        pass
-    else:
-        pass
     pass
 
 if __name__ == "__main__":
-    qa_pipeline()
-    pass
+    # qa_pipeline()
+    train_pipeline()

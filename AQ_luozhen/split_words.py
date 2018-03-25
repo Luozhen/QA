@@ -8,6 +8,8 @@ import csv
 import jieba
 import jieba.analyse
 
+import util
+
 
 pre_path = "data/"
 
@@ -20,13 +22,10 @@ stop_words_file = "stop_words.txt"
 dict_file = "tnb_dict"
 
 
-def get_file_name(file_name):
-    return pre_path + file_name
-
 
 def add_user_dict(dict_file_name):
     dicts = set([])
-    with open(get_file_name(dict_file_name), 'r') as src:
+    with open(util.get_file_name(pre_path, dict_file_name), 'r') as src:
         for line in src:
             tmp_line = line.strip().decode('utf-8')
             dicts.add(tmp_line)
@@ -36,7 +35,7 @@ def add_user_dict(dict_file_name):
 
 def get_stop_words(stop_file_name):
     stop_words = set([])
-    with open(get_file_name(stop_file_name), 'r') as src:
+    with open(util.get_file_name(pre_path, stop_file_name), 'r') as src:
         for line in src:
             tmp_line = line.strip().decode('utf-8')
             stop_words.add(tmp_line)
@@ -58,9 +57,9 @@ def remove_stop_word(words_ls, stop_words):
 
 add_user_dict(dict_file)
 stop_words = get_stop_words(stop_words_file)
-with open(get_file_name(split_file), 'wa') as split_src:
+with open(util.get_file_name(pre_path, split_file), 'wa') as split_src:
     csv_writer = csv.writer(split_src, delimiter=' ')
-    with open(get_file_name(raw_data_file), 'r') as raw_src:
+    with open(util.get_file_name(pre_path, raw_data_file), 'r') as raw_src:
         for line in raw_src:
             tmp_line = line.strip()
             tmp_split = jieba.lcut(tmp_line, cut_all=False)
