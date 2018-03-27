@@ -5,63 +5,50 @@ import sys
 reload(sys)
 sys.setdefaultencoding('utf-8')
 import csv
-import jieba
-import jieba.analyse
 
-import AQ_luozhen.util
-
-
-pre_path = "data/"
-
-raw_data_file = "tnb.txt"
-
-split_file = "split.txt"
-
-stop_words_file = "stop_words.txt"
-
-dict_file = "tnb_dict"
+from AQ_luozhen.util import get_file_name
+from jieba_handle import Jieba_Handle
 
 
-def add_user_dict(dict_file_name):
-    dicts = set([])
-    with open(AQ_luozhen.util.get_file_name(pre_path, dict_file_name), 'r') as src:
-        for line in src:
-            tmp_line = line.strip().decode('utf-8')
-            dicts.add(tmp_line)
-    for ele in dicts:
-        jieba.add_word(ele)
+class Split_Word(object):
+    def __init__(self, obj_file, dest_file, stop_file="../data/stop_words.txt", user_dict_file="../data/tnb_dict", is_qa=False):
+        self.obj_file = obj_file
+        self.dest_file = dest_file
+        self.is_qa = is_qa
+        self.jieba_handle = Jieba_Handle(stop_file, user_dict_file)
+
+    def split_file_line(self, line):
+        if self.is_qa:
+            space_index = line.find(' ')
+            q = line[: space_index]
+            a = line[space_index + 1:]
+            q_split = self.jieba_handle.split_words(q)
+            a_split = self.jieba_handle.split_words(a)
+        else:
+            q_split = self.jieba_handle.split_words(line)
+            a_split = None
+        return q_split, a_split
+
+    def split_word(self):
+        with open(self.dest_file, 'wa') as dest_src:
+            csv_writer = csv.writer(dest_src, delimiter=' ')
+            with open(self.obj_file, 'r') as obj_src:
+                for line in obj_src:
+                    q_split, a_split = self.split_file_line(line)
+                    if a_split:
+                        csv_writer.writerow(q_split + [":"] + a_split)
+                    else:
+                        csv_writer.writerow(q_split)
 
 
-def get_stop_words(stop_file_name):
-    stop_words = set([])
-    with open(AQ_luozhen.util.get_file_name(pre_path, stop_file_name), 'r') as src:
-        for line in src:
-            tmp_line = line.strip().decode('utf-8')
-            stop_words.add(tmp_line)
-    return stop_words
+if __name__ == "__main__":
+    pre_path = "data/"
+    raw_data_file = "tnb.txt"
+    split_file = "split.txt"
+    stop_words_file = "stop_words.txt"
+    dict_file = "tnb_dict"
 
-
-def remove_stop_word(words_ls, stop_words):
-    new_words = []
-    for word in words_ls:
-        tmp_word = word.strip()
-        if tmp_word in stop_words:
-            continue
-        new_words.append(tmp_word)
-    return new_words
-
-
-# jieba.load_userdict(get_file_name(dict_file))
-# jieba.analyse.set_stop_words(get_file_name(stop_words_file))
-
-add_user_dict(dict_file)
-stop_words = get_stop_words(stop_words_file)
-with open(AQ_luozhen.util.get_file_name(pre_path, split_file), 'wa') as split_src:
-    csv_writer = csv.writer(split_src, delimiter=' ')
-    with open(AQ_luozhen.util.get_file_name(pre_path, raw_data_file), 'r') as raw_src:
-        for line in raw_src:
-            tmp_line = line.strip()
-            tmp_split = jieba.lcut(tmp_line, cut_all=False)
-            dest_ls = remove_stop_word(tmp_split, stop_words)
-            print dest_ls
-            csv_writer.writerow(dest_ls)
+    obj_file = get_file_name(pre_path, raw_data_file)
+    dest_file = get_file_name(pre_path, "qa_split.txt")
+    split_obj = Split_Word(obj_file, dest_file, get_file_name(pre_path, stop_words_file), get_file_name(pre_path, dict_file), True)
+    split_obj.split_word()
