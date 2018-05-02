@@ -28,14 +28,17 @@ class Unit_Crawler(Info):
         url_ls = []
         try:
             soup = BeautifulSoup(html, "html5lib")
+            primary_content = soup.find_all('div', attrs={'id': 'primary-content'})
+            content = soup.find_all('div', attrs={'id': 'content'})
+            if primary_content or content:
+                content = primary_content[0] if primary_content else content[0]
+                text = content.get_text().strip().replace('\n', ' ')
+                href_ls = content.find_all('a')
+                for href_tag in href_ls:
+                    url_ls.append(href_tag.get('href'))
             find_title = soup.find('h1', attrs={'class': 'entry-title'})
             if find_title:
                 title = unicode(find_title.string)
-            soup_content = soup.find_all('div', attrs={'id': 'primary-content'})[0]
-            text = soup_content.get_text().strip().replace('\n', ' ')
-            href_ls = soup_content.find_all('a')
-            for href_tag in href_ls:
-                url_ls.append(href_tag.get('href'))
         except Exception as e:
             traceback.print_exc()
             print e.message, "\n"
@@ -97,7 +100,7 @@ class Main_Crawler(object):
 
 
 if __name__ == "__main__":
-    url = "https://dtc.ucsf.edu/zh-hans/%E7%B3%96%E5%B0%BF%E7%97%85%E5%88%86%E5%9E%8B/"
-    file_name = "data/tnb_1.txt"
+    url = "https://dtc.ucsf.edu/zh-hans/%E5%B8%A6%E7%97%85%E7%94%9F%E5%AD%98/"
+    file_name = "data/tnb_2.txt"
     crawler = Main_Crawler(url, file_name)
     crawler.run()
