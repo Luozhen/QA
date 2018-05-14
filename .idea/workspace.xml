@@ -2,13 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4b3a7f73-c5d7-4fda-ac84-dae77db72aa4" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AQ_luozhen/try_main.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AQ_luozhen/raw_data_script/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AQ_luozhen/raw_data_script/process_wiki.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AQ_luozhen/reader/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AQ_luozhen/reader/reader.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AQ_luozhen/retriever/retriever.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AQ_luozhen/sentence/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AQ_luozhen/sentence/term_model.py" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AQ_luozhen/retriever/trian_model.py" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/AQ_luozhen/data/model" afterPath="$PROJECT_DIR$/AQ_luozhen/model/word2vec" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/AQ_luozhen/data/tnb_dict" afterPath="$PROJECT_DIR$/AQ_luozhen/data/user_dict" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/AQ_luozhen/handle_data/__init__.py" afterPath="$PROJECT_DIR$/AQ_luozhen/data/zhwiki.xml.text" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/AQ_luozhen/handle_data/jieba_handle.py" afterPath="$PROJECT_DIR$/AQ_luozhen/sentence/split_handle.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/AQ_luozhen/handle_data/split_words.py" afterPath="$PROJECT_DIR$/AQ_luozhen/raw_data_script/split_words.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/AQ_luozhen/handle_data/term_handle.py" afterPath="$PROJECT_DIR$/AQ_luozhen/raw_data_script/term_handle.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/AQ_luozhen/retriever/rnn.py" afterPath="$PROJECT_DIR$/AQ_luozhen/reader/rnn.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DeepQA" afterPath="$PROJECT_DIR$/DeepQA" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DrQA" afterPath="$PROJECT_DIR$/DrQA" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/QA_m1" afterPath="$PROJECT_DIR$/QA_m1" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gluon-tutorials/chapter_natural-language-processing/nmt.ipynb" afterPath="$PROJECT_DIR$/gluon-tutorials/chapter_natural-language-processing/nmt.ipynb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gluon-tutorials/chapter_recurrent-neural-networks/rnn-scratch.ipynb" afterPath="$PROJECT_DIR$/gluon-tutorials/chapter_recurrent-neural-networks/rnn-scratch.ipynb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/learn_mxnet/.ipynb_checkpoints/RNN-checkpoint.ipynb" afterPath="$PROJECT_DIR$/learn_mxnet/.ipynb_checkpoints/RNN-checkpoint.ipynb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/learn_mxnet/RNN.ipynb" afterPath="$PROJECT_DIR$/learn_mxnet/RNN.ipynb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AQ_luozhen/data/tnb.txt" afterPath="$PROJECT_DIR$/AQ_luozhen/data/tnb.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AQ_luozhen/qa_main.py" afterPath="$PROJECT_DIR$/AQ_luozhen/qa_main.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AQ_luozhen/try_main.py" afterPath="$PROJECT_DIR$/AQ_luozhen/try_main.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/crawler/data/tnb.txt" afterPath="$PROJECT_DIR$/crawler/data/tnb.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/crawler/tnb_crawl.py" afterPath="$PROJECT_DIR$/crawler/tnb_crawl.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gluon-tutorials/utils.py" afterPath="$PROJECT_DIR$/gluon-tutorials/utils.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -20,53 +38,83 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="try_main.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/AQ_luozhen/try_main.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="qa_main.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/AQ_luozhen/qa_main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" column="16" lean-forward="true" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
+            <state relative-caret-position="238">
+              <caret line="14" column="42" lean-forward="false" selection-start-line="14" selection-start-column="42" selection-end-line="14" selection-end-column="42" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="jieba_handle.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AQ_luozhen/handle_data/jieba_handle.py">
+      <file leaf-file-name="retriever.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/AQ_luozhen/retriever/retriever.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+            <state relative-caret-position="238">
+              <caret line="14" column="47" lean-forward="false" selection-start-line="14" selection-start-column="47" selection-end-line="14" selection-end-column="47" />
               <folding>
-                <element signature="e#37#46#0" expanded="true" />
+                <element signature="e#30#74#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="split.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AQ_luozhen/data/split.txt">
+      <file leaf-file-name="split_handle.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AQ_luozhen/sentence/split_handle.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="1298" lean-forward="false" selection-start-line="9" selection-start-column="1298" selection-end-line="9" selection-end-column="1298" />
+            <state relative-caret-position="85">
+              <caret line="6" column="18" lean-forward="false" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="18" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/crawler/main.py">
+      <file leaf-file-name="user_dict" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AQ_luozhen/data/user_dict">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="5" lean-forward="false" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="split_words.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AQ_luozhen/raw_data_script/split_words.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="85">
-              <caret line="5" column="29" lean-forward="false" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="29" />
+              <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="31" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="term_handle.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AQ_luozhen/raw_data_script/term_handle.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="510">
+              <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AQ_luozhen/sentence/__init__.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tnb_crawl.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/crawler/tnb_crawl.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1173">
+              <caret line="72" column="45" lean-forward="false" selection-start-line="72" selection-start-column="45" selection-end-line="72" selection-end-column="45" />
               <folding>
                 <element signature="e#37#50#0" expanded="true" />
               </folding>
@@ -74,21 +122,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="classifier.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AQ_luozhen/retriever/classifier.py">
+      <file leaf-file-name="tnb_2.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/crawler/data/tnb_2.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+            <state relative-caret-position="340">
+              <caret line="20" column="4" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="4" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="rnn.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AQ_luozhen/retriever/rnn.py">
+      <file leaf-file-name="tnb.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AQ_luozhen/data/tnb.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="295">
-              <caret line="19" column="26" lean-forward="true" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
+            <state relative-caret-position="2006">
+              <caret line="118" column="12" lean-forward="false" selection-start-line="118" selection-start-column="12" selection-end-line="118" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -105,9 +153,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>getPageNum</find>
-      <find>start</find>
-      <find>getTitle</find>
       <find>writeData</find>
       <find>file</find>
       <find>embeddingFile</find>
@@ -121,6 +166,23 @@
       <find>SeqAttnMatch</find>
       <find>get_doc_freqs</find>
       <find>qemb_match</find>
+      <find>utils</find>
+      <find>糖尿病</find>
+      <find>并发症</find>
+      <find>最新诊断的糖尿病</find>
+      <find>低血糖症</find>
+      <find>糖尿病的类型</find>
+      <find>1型糖尿病胰岛素治疗</find>
+      <find>是什么因素导致自身免疫性糖尿病?</find>
+      <find>自身免疫</find>
+      <find>1型糖尿病胰岛素治疗是什么因素导致自身免疫性糖尿病?</find>
+      <find>1型糖尿病常见问题</find>
+      <find>crawler</find>
+      <find>1型糖尿病胰岛素</find>
+      <find>治疗目标</find>
+      <find>entry-content</find>
+      <find>Sentences</find>
+      <find>Word2vec</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -129,15 +191,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/leetcode/Median of Two Sorted Arrays.py" />
-        <option value="$PROJECT_DIR$/qa.py" />
-        <option value="$PROJECT_DIR$/wechat_qa.py" />
-        <option value="$PROJECT_DIR$/wechat/wechat_qa.py" />
-        <option value="$PROJECT_DIR$/crawler/interesting_baike/crawl_insteresting.py" />
-        <option value="$PROJECT_DIR$/crawler/crawl_baidu_tieba.py" />
-        <option value="$PROJECT_DIR$/crawler/scrapy_test.py" />
-        <option value="$PROJECT_DIR$/crawler/scrapy_test/scrapy_test/spiders/dtc_spider.py" />
-        <option value="$PROJECT_DIR$/crawl_data/tnb_ha" />
         <option value="$PROJECT_DIR$/QA_m1/main.py" />
         <option value="$PROJECT_DIR$/QA_m1/qaLSTMNet.py" />
         <option value="$PROJECT_DIR$/QA_m1/qaData.py" />
@@ -163,7 +216,6 @@
         <option value="$PROJECT_DIR$/AQ_luozhen/data/stop_words.txt" />
         <option value="$PROJECT_DIR$/AQ_luozhen/__init__.py" />
         <option value="$PROJECT_DIR$/AQ_luozhen/split_words.py" />
-        <option value="$PROJECT_DIR$/AQ_luozhen/qa_main.py" />
         <option value="$PROJECT_DIR$/AQ_luozhen/term_handle.py" />
         <option value="$PROJECT_DIR$/AQ_luozhen/handle_data/QA_split.py" />
         <option value="$PROJECT_DIR$/AQ_luozhen/util.py" />
@@ -174,11 +226,22 @@
         <option value="$PROJECT_DIR$/AQ_luozhen/retriever/rnn.py" />
         <option value="$PROJECT_DIR$/AQ_luozhen/retriever/trian_model.py" />
         <option value="$PROJECT_DIR$/AQ_luozhen/retriever/classifier.py" />
-        <option value="$PROJECT_DIR$/crawler/tnb_crawl.py" />
         <option value="$PROJECT_DIR$/crawler/data/tnb_1.txt" />
         <option value="$PROJECT_DIR$/AQ_luozhen/data/tnb_dict" />
         <option value="$PROJECT_DIR$/crawler/data/tnb.txt" />
         <option value="$PROJECT_DIR$/AQ_luozhen/try_main.py" />
+        <option value="$PROJECT_DIR$/crawler/data/tnb_2.txt" />
+        <option value="$PROJECT_DIR$/AQ_luozhen/data/tnb.txt" />
+        <option value="$PROJECT_DIR$/crawler/tnb_crawl.py" />
+        <option value="$PROJECT_DIR$/AQ_luozhen/script/__init__.py" />
+        <option value="$PROJECT_DIR$/AQ_luozhen/script/process_wiki.py" />
+        <option value="$PROJECT_DIR$/AQ_luozhen/reader/reader.py" />
+        <option value="$PROJECT_DIR$/AQ_luozhen/qa_main.py" />
+        <option value="$PROJECT_DIR$/AQ_luozhen/sentence/term_model.py" />
+        <option value="$PROJECT_DIR$/AQ_luozhen/sentence/__init__.py" />
+        <option value="$PROJECT_DIR$/AQ_luozhen/raw_data_script/jieba_handle.py" />
+        <option value="$PROJECT_DIR$/AQ_luozhen/sentence/split_handle.py" />
+        <option value="$PROJECT_DIR$/AQ_luozhen/retriever/retriever.py" />
       </list>
     </option>
   </component>
@@ -221,6 +284,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -547,7 +612,79 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="sentence" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AQ" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AQ" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AQ_luozhen" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="retriever" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AQ" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AQ" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AQ_luozhen" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="reader" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AQ" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AQ" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AQ_luozhen" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="raw_data_script" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AQ" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AQ" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AQ_luozhen" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="model" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -583,32 +720,12 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="handle_data" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AQ" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AQ" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AQ_luozhen" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="data" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -616,16 +733,16 @@
     <property name="FullScreen" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/AQ_luozhen/sentence" />
+      <recent name="$PROJECT_DIR$/AQ_luozhen/model" />
+      <recent name="$PROJECT_DIR$/AQ_luozhen/reader" />
+      <recent name="$PROJECT_DIR$/AQ_luozhen/handle_data" />
+      <recent name="$PROJECT_DIR$/AQ_luozhen/data" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/AQ_luozhen/data" />
       <recent name="$PROJECT_DIR$/learn_mxnet" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/AQ_luozhen/handle_data" />
-      <recent name="$PROJECT_DIR$/AQ_luozhen/data" />
-      <recent name="$PROJECT_DIR$/crawler/data" />
-      <recent name="$PROJECT_DIR$/crawler" />
-      <recent name="$PROJECT_DIR$/wechat" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -640,25 +757,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.tnb_crawl">
-    <configuration default="false" name="ndarray" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/learn_mxnet" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="AQ" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/learn_mxnet/ndarray.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.process_wiki">
     <configuration default="false" name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -726,6 +825,24 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="AQ" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/AQ_luozhen/handle_data/split_words.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="process_wiki" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/AQ_luozhen/script" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="AQ" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/AQ_luozhen/handle_data/process_wiki.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -807,19 +924,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.ndarray" />
-      <item index="1" class="java.lang.String" itemvalue="Python.main" />
-      <item index="2" class="java.lang.String" itemvalue="Python.tnb_crawl" />
-      <item index="3" class="java.lang.String" itemvalue="Python.qa_main" />
-      <item index="4" class="java.lang.String" itemvalue="Python.split_words" />
+      <item index="0" class="java.lang.String" itemvalue="Python.main" />
+      <item index="1" class="java.lang.String" itemvalue="Python.tnb_crawl" />
+      <item index="2" class="java.lang.String" itemvalue="Python.qa_main" />
+      <item index="3" class="java.lang.String" itemvalue="Python.split_words" />
+      <item index="4" class="java.lang.String" itemvalue="Python.process_wiki" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.tnb_crawl" />
-        <item index="1" class="java.lang.String" itemvalue="Python.split_words" />
-        <item index="2" class="java.lang.String" itemvalue="Python.qa_main" />
-        <item index="3" class="java.lang.String" itemvalue="Python.main" />
-        <item index="4" class="java.lang.String" itemvalue="Python.ndarray" />
+        <item index="0" class="java.lang.String" itemvalue="Python.process_wiki" />
+        <item index="1" class="java.lang.String" itemvalue="Python.tnb_crawl" />
+        <item index="2" class="java.lang.String" itemvalue="Python.split_words" />
+        <item index="3" class="java.lang.String" itemvalue="Python.qa_main" />
+        <item index="4" class="java.lang.String" itemvalue="Python.main" />
       </list>
     </recent_temporary>
   </component>
@@ -850,9 +967,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18597998" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1881259" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32891566" sideWeight="0.49713877" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18915662" sideWeight="0.5028612" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2819277" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -868,7 +984,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32891566" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -918,106 +1034,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/learn_mxnet/ndarray.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/qa_complication/test/lr.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="139">
-          <caret line="46" column="30" lean-forward="false" selection-start-line="46" selection-start-column="28" selection-end-line="46" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/learn_mxnet/autograd_learn.ipynb">
-      <provider selected="true" editor-type-id="ipnb-editor">
-        <state>
-          <selected id="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/QA_m1/qaLSTMNet.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-243">
-          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gluon-tutorials/utils.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4454">
-          <caret line="262" column="59" lean-forward="false" selection-start-line="262" selection-start-column="59" selection-end-line="262" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/Cellar/python/2.7.13/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="70">
-          <caret line="153" column="0" lean-forward="false" selection-start-line="153" selection-start-column="0" selection-end-line="153" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/crawler/crawl_data/data_tnb" />
-    <entry file="file://$PROJECT_DIR$/crawler/data/tnb_ha">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="502">
-          <caret line="157" column="4" lean-forward="false" selection-start-line="157" selection-start-column="4" selection-end-line="157" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DrQA/drqa/tokenizers/spacy_tokenizer.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AQ_luozhen/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AQ_luozhen/log/logger.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AQ_luozhen/data/tnb.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AQ_luozhen/util.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AQ_luozhen/handle_data/QA_split.py" />
-    <entry file="file://$PROJECT_DIR$/AQ_luozhen/data/qa_split.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="217" lean-forward="false" selection-start-line="0" selection-start-column="212" selection-end-line="0" selection-end-column="217" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DrQA/drqa/tokenizers/corenlp_tokenizer.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1546">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/DrQA/drqa/pipeline/drqa.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
@@ -1039,59 +1055,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DrQA/drqa/reader/vector.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="77" column="0" lean-forward="true" selection-start-line="77" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AQ_luozhen/handle_data/split_words.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AQ_luozhen/retriever/trian_model.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="23" lean-forward="false" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/crawler/tnb_crawl.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="52" column="0" lean-forward="false" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AQ_luozhen/data/tnb_dict">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="5" lean-forward="false" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/crawler/data/tnb.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="36" column="36" lean-forward="true" selection-start-line="36" selection-start-column="36" selection-end-line="36" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wxlzh/handle.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
           <caret line="9" column="12" lean-forward="false" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="12" />
-          <folding>
-            <element signature="e#47#61#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1099,7 +1066,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1107,7 +1073,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" column="21" lean-forward="true" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1115,7 +1080,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="643">
           <caret line="89" column="139" lean-forward="true" selection-start-line="89" selection-start-column="139" selection-end-line="89" selection-end-column="139" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1123,7 +1087,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="918">
           <caret line="54" column="44" lean-forward="true" selection-start-line="54" selection-start-column="44" selection-end-line="54" selection-end-column="44" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1131,7 +1094,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="550">
           <caret line="35" column="26" lean-forward="false" selection-start-line="35" selection-start-column="26" selection-end-line="35" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1139,9 +1101,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="201">
           <caret line="34" column="21" lean-forward="true" selection-start-line="34" selection-start-column="21" selection-end-line="34" selection-end-column="21" />
-          <folding>
-            <element signature="e#37#51#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1149,17 +1108,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="392">
           <caret line="31" column="7" lean-forward="true" selection-start-line="31" selection-start-column="7" selection-end-line="31" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AQ_luozhen/handle_data/term_handle.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="64" column="40" lean-forward="false" selection-start-line="64" selection-start-column="40" selection-end-line="64" selection-end-column="40" />
-          <folding>
-            <element signature="e#37#46#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1167,7 +1115,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="179">
           <caret line="211" column="1" lean-forward="false" selection-start-line="211" selection-start-column="0" selection-end-line="211" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1187,7 +1134,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="253">
           <caret line="184" column="10" lean-forward="true" selection-start-line="184" selection-start-column="10" selection-end-line="184" selection-end-column="10" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1195,7 +1141,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1884">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1203,9 +1148,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1553">
           <caret line="89" column="7" lean-forward="true" selection-start-line="89" selection-start-column="7" selection-end-line="89" selection-end-column="7" />
-          <folding>
-            <element signature="e#278#296#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1213,7 +1155,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2295">
           <caret line="135" column="12" lean-forward="true" selection-start-line="135" selection-start-column="12" selection-end-line="135" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1221,9 +1162,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1904">
           <caret line="112" column="24" lean-forward="false" selection-start-line="112" selection-start-column="24" selection-end-line="112" selection-end-column="24" />
-          <folding>
-            <element signature="e#250#264#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1231,7 +1169,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-525">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1239,37 +1176,124 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="273">
           <caret line="43" column="40" lean-forward="false" selection-start-line="43" selection-start-column="29" selection-end-line="43" selection-end-column="40" />
-          <folding>
-            <element signature="e#261#273#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AQ_luozhen/data/split.txt">
+    <entry file="file://$PROJECT_DIR$/crawler/data/纯原创我心中的NBA2014-2015赛季现役50大.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="1298" lean-forward="false" selection-start-line="9" selection-start-column="1298" selection-end-line="9" selection-end-column="1298" />
-          <folding />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crawler/data/百度贴吧.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1293">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crawler/data/tnb_ha">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="819">
+          <caret line="157" column="4" lean-forward="false" selection-start-line="157" selection-start-column="4" selection-end-line="157" selection-end-column="4" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/crawler/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
+        <state relative-caret-position="-700">
           <caret line="5" column="29" lean-forward="false" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AQ_luozhen/try_main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="34" column="23" lean-forward="false" selection-start-line="34" selection-start-column="16" selection-end-line="34" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AQ_luozhen/script/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/AQ_luozhen/data/zhwiki.xml.text">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/lib/python2.7/site-packages/gensim/corpora/wikicorpus.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="411">
+          <caret line="199" column="0" lean-forward="false" selection-start-line="199" selection-start-column="0" selection-end-line="199" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/lib/python2.7/site-packages/gensim/utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="847" column="0" lean-forward="false" selection-start-line="847" selection-start-column="0" selection-end-line="847" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/Cellar/python/2.7.13/Frameworks/Python.framework/Versions/2.7/lib/python2.7/multiprocessing/process.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="122">
+          <caret line="253" column="44" lean-forward="true" selection-start-line="253" selection-start-column="44" selection-end-line="253" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crawler/data/tnb.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="452">
+          <caret line="59" column="11" lean-forward="false" selection-start-line="59" selection-start-column="11" selection-end-line="59" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AQ_luozhen/data/zhwiki.xml">
+      <provider selected="true" editor-type-id="LargeFileEditor">
+        <state relative-caret-position="-276">
+          <caret line="1688" column="404" lean-forward="false" selection-start-line="1688" selection-start-column="404" selection-end-line="1688" selection-end-column="404" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AQ_luozhen/reader/rnn.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="295">
+          <caret line="19" column="26" lean-forward="false" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AQ_luozhen/raw_data_script/process_wiki.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AQ_luozhen/reader/reader.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crawler/tnb_crawl.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1173">
+          <caret line="72" column="45" lean-forward="false" selection-start-line="72" selection-start-column="45" selection-end-line="72" selection-end-column="45" />
           <folding>
             <element signature="e#37#50#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AQ_luozhen/handle_data/jieba_handle.py">
+    <entry file="file://$PROJECT_DIR$/AQ_luozhen/retriever/trian_model.py" />
+    <entry file="file://$PROJECT_DIR$/crawler/data/tnb_2.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding>
-            <element signature="e#37#46#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="340">
+          <caret line="20" column="4" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="4" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1277,31 +1301,93 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AQ_luozhen/data/tnb.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2006">
+          <caret line="118" column="12" lean-forward="false" selection-start-line="118" selection-start-column="12" selection-end-line="118" selection-end-column="12" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AQ_luozhen/retriever/rnn.py">
+    <entry file="file://$PROJECT_DIR$/AQ_luozhen/raw_data_script/split_words.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="295">
-          <caret line="19" column="26" lean-forward="true" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
+        <state relative-caret-position="85">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AQ_luozhen/sentence/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AQ_luozhen/sentence/term_model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DrQA/drqa/reader/vector.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1278">
+          <caret line="77" column="0" lean-forward="true" selection-start-line="77" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AQ_luozhen/data/split.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="21" lean-forward="false" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AQ_luozhen/data/user_dict">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="5" lean-forward="false" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AQ_luozhen/raw_data_script/term_handle.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AQ_luozhen/sentence/split_handle.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="6" column="18" lean-forward="false" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="18" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/AQ_luozhen/qa_main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="16" lean-forward="true" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
+        <state relative-caret-position="238">
+          <caret line="14" column="42" lean-forward="false" selection-start-line="14" selection-start-column="42" selection-end-line="14" selection-end-column="42" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AQ_luozhen/try_main.py">
+    <entry file="file://$PROJECT_DIR$/AQ_luozhen/retriever/retriever.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="238">
+          <caret line="14" column="47" lean-forward="false" selection-start-line="14" selection-start-column="47" selection-end-line="14" selection-end-column="47" />
+          <folding>
+            <element signature="e#30#74#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

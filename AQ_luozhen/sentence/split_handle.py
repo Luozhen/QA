@@ -4,14 +4,14 @@
 import os
 import jieba
 
-class Jieba_Handle(object):
-    def __init__(self, stop_file, user_dict_file=None):
+class Split_Handle(object):
+    def __init__(self, stop_file="../data/stop_word.txt", user_dict_file="../data/user_dict"):
         self.stop_file = stop_file
         self.user_dict_file = user_dict_file
         self.__add_user_dict()
 
     @staticmethod
-    def get_user_words(file_name):
+    def get_file_words(file_name):
         if not isinstance(file_name, str) or not os.path.exists(file_name):
             return None
         user_words = set([])
@@ -24,12 +24,12 @@ class Jieba_Handle(object):
         return user_words
 
     def __add_user_dict(self):
-        user_dict = self.get_user_words(self.user_dict_file)
+        user_dict = self.get_file_words(self.user_dict_file)
         for w in user_dict:
             jieba.add_word(w)
 
     def remove_stop_words(self, split_words):
-        stop_words = self.get_user_words(self.stop_file)
+        stop_words = self.get_file_words(self.stop_file)
         dest_split_words = []
         for word in split_words:
             if word in stop_words or not word.strip():

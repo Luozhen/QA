@@ -7,11 +7,11 @@ sys.setdefaultencoding('utf-8')
 import csv
 
 from AQ_luozhen.util import get_file_name
-from jieba_handle import Jieba_Handle
+from AQ_luozhen.sentence.split_handle import Jieba_Handle
 
 
 class Split_Word(object):
-    def __init__(self, obj_file, dest_file, stop_file="../data/stop_words.txt", user_dict_file="../data/tnb_dict", is_qa=False):
+    def __init__(self, obj_file, dest_file, stop_file="../data/stop_words.txt", user_dict_file="../data/user_dict", is_qa=False):
         self.obj_file = obj_file
         self.dest_file = dest_file
         self.is_qa = is_qa
@@ -46,7 +46,7 @@ if __name__ == "__main__":
     raw_data_file = "tnb.txt"
     split_file = "split.txt"
     stop_words_file = "stop_words.txt"
-    dict_file = "tnb_dict"
+    dict_file = "user_dict"
 
     obj_file = get_file_name(pre_path, raw_data_file)
     dest_file = get_file_name(pre_path, "qa_split.txt")

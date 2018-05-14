@@ -4,28 +4,32 @@
 import logging
 logging.basicConfig(filename='log/logger.log', level=logging.INFO)
 
+from retriever.retriever import Retriever
+
 
 def get_docs(question):
 
     pass
 
 
-def get_answer(retrieve_docs):
+def retrieve_candidate_docs(question_str):
+    retriever_obj = Retriever(question_str)
+    docs = retriever_obj.get_candidate_docs()
+    return docs
+
+
+def reader_module(retrieve_res):
     pass
 
 
-def qa_pipeline():
+def qa_pipeline(question_str):
     # qa pipeline is a pipeline to get answer for given question
-    question = raw_input('input the question:').strip().decode('utf-8')
-    retrieve_docs = get_docs(question)
-    answer = get_answer(retrieve_docs)
-    print answer
+    retrieve_res = retrieve_candidate_docs(question_str)
+    reader_res = reader_module(retrieve_res)
+    print reader_res
 
-
-def train_pipeline():
-    # train pipeline is a pipeline to train model online for QA
-    pass
 
 if __name__ == "__main__":
-    # qa_pipeline()
-    train_pipeline()
+    question_str = "糖尿病是什么？"
+    qa_pipeline(question_str)
+    # train_pipeline()

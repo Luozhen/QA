@@ -287,7 +287,7 @@ def train_and_predict_rnn(rnn, is_random_iter, epochs, num_steps, hidden_dim,
                           pred_period, pred_len, seqs, get_params, get_inputs,
                           ctx, corpus_indices, idx_to_char, char_to_idx,
                           is_lstm=False):
-    """Train an RNN model and predict the next item in the sequence."""
+    """Train an RNN word2vec and predict the next item in the sequence."""
     if is_random_iter:
         data_iter = data_iter_random
     else:
