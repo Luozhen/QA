@@ -59,19 +59,28 @@ class TermHandle(object):
                 yield line
 
     def train_model(self):
-        split_file = "data/split.txt"
+        split_file = "../data/split.txt"
         my_sentences = Sentences(split_file)
-        self.model = gensim.models.Word2Vec(my_sentences, iter=5, min_count=10, size=200)
+        self.model = gensim.models.Word2Vec(my_sentences, iter=100, min_count=0, size=200)
         self.model.save(self.model_path)
-        return self.model
 
     def get_model(self):
-        if os.path.exists(self.model_path):
-            self.model = gensim.models.Word2Vec.load(self.model_path)
-        else:
-            self.train_model()
+        # if 0 or os.path.exists(self.model_path):
+        #     self.model = gensim.models.Word2Vec.load(self.model_path)
+        # else:
+        self.train_model()
         return self.model
 
     def get_vec(self, word):
         model = self.get_model()
         return model[word]
+
+if __name__ == "__main__":
+    model_path = "../model/word2vec"
+    termHandle = TermHandle(model_path)
+    model = termHandle.get_model()
+    print "糖尿病 vec:", model['糖尿病']
+    similar_ls = model.wv.most_similar('糖尿病')
+    print "糖尿病 相近："
+    for ele in similar_ls:
+        print ele[0], "score:", ele[1]

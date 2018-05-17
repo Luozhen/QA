@@ -7,7 +7,7 @@ sys.setdefaultencoding('utf-8')
 import csv
 
 from AQ_luozhen.util import get_file_name
-from AQ_luozhen.sentence.split_handle import Jieba_Handle
+from AQ_luozhen.sentence.split_handle import Split_Handle
 
 
 class Split_Word(object):
@@ -15,7 +15,7 @@ class Split_Word(object):
         self.obj_file = obj_file
         self.dest_file = dest_file
         self.is_qa = is_qa
-        self.jieba_handle = Jieba_Handle(stop_file, user_dict_file)
+        self.jieba_handle = Split_Handle(stop_file, user_dict_file)
 
     def split_file_line(self, line):
         if self.is_qa:
