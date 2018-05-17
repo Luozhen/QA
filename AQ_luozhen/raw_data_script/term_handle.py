@@ -61,7 +61,7 @@ class TermHandle(object):
     def train_model(self):
         split_file = "../data/split.txt"
         my_sentences = Sentences(split_file)
-        self.model = gensim.models.Word2Vec(my_sentences, iter=100, min_count=0, size=200)
+        self.model = gensim.models.Word2Vec(my_sentences, window=5, iter=100, min_count=5, size=200)
         self.model.save(self.model_path)
 
     def get_model(self):
