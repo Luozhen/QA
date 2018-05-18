@@ -298,6 +298,9 @@ def train_and_predict_rnn(rnn, is_random_iter, epochs, num_steps, hidden_dim,
     
     softmax_cross_entropy = gluon.loss.SoftmaxCrossEntropyLoss()
 
+    x_aixs = []
+    y_axis = []
+
     for e in range(1, epochs + 1): 
         # If consecutive sampling is used, in the same epoch, the hidden state
         # is initialized only at the beginning of the epoch.
@@ -338,7 +341,9 @@ def train_and_predict_rnn(rnn, is_random_iter, epochs, num_steps, hidden_dim,
             train_loss += nd.sum(loss).asscalar()
             num_examples += loss.size
 
-        if e % pred_period == 0:
+            x_aixs.append(pred_period)
+            y_axis.append(exp(train_loss/num_examples))
+        # if e % pred_period == 0:
             print "Epoch %d. Training perplexity %f" % (e,
                                                exp(train_loss/num_examples))
             for seq in seqs:
@@ -346,6 +351,8 @@ def train_and_predict_rnn(rnn, is_random_iter, epochs, num_steps, hidden_dim,
                       hidden_dim, ctx, idx_to_char, char_to_idx, get_inputs,
                       is_lstm)
             print "\n"
+    return x_aixs, y_axis
+
 
 
 class Split_Handle(object):
@@ -357,7 +364,9 @@ class Split_Handle(object):
     @staticmethod
     def get_file_words(file_name):
         if not isinstance(file_name, str) or not os.path.exists(file_name):
+            print "user_dict func return"
             return None
+        print "not return"
         user_words = set([])
         with open(file_name, 'r') as src:
             for line in src:
@@ -369,6 +378,9 @@ class Split_Handle(object):
 
     def __add_user_dict(self):
         user_dict = self.get_file_words(self.user_dict_file)
+        if not user_dict:
+            print "return add user_dic:", user_dict
+            return
         for w in user_dict:
             jieba.add_word(w)
 

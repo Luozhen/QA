@@ -2,18 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4b3a7f73-c5d7-4fda-ac84-dae77db72aa4" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/codeStyleSettings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DeepQA" afterPath="$PROJECT_DIR$/DeepQA" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DrQA" afterPath="$PROJECT_DIR$/DrQA" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/QA_m1" afterPath="$PROJECT_DIR$/QA_m1" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AQ_luozhen/data/tnb.txt" afterPath="$PROJECT_DIR$/AQ_luozhen/data/tnb.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AQ_luozhen/raw_data_script/term_handle.py" afterPath="$PROJECT_DIR$/AQ_luozhen/raw_data_script/term_handle.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AQ_luozhen/retriever/retriever.py" afterPath="$PROJECT_DIR$/AQ_luozhen/retriever/retriever.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gluon-tutorials/chapter_natural-language-processing/nmt.ipynb" afterPath="$PROJECT_DIR$/gluon-tutorials/chapter_natural-language-processing/nmt.ipynb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gluon-tutorials/chapter_recurrent-neural-networks/lstm-scratch.ipynb" afterPath="$PROJECT_DIR$/gluon-tutorials/chapter_recurrent-neural-networks/lstm-scratch.ipynb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gluon-tutorials/utils.py" afterPath="$PROJECT_DIR$/gluon-tutorials/utils.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/learn_mxnet/Seq2Seq.ipynb" afterPath="$PROJECT_DIR$/learn_mxnet/Seq2Seq.ipynb" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -25,11 +20,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="utils.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="utils.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/gluon-tutorials/utils.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-124">
-              <caret line="350" column="18" lean-forward="false" selection-start-line="350" selection-start-column="6" selection-end-line="350" selection-end-column="18" />
+            <state relative-caret-position="331">
+              <caret line="316" column="32" lean-forward="false" selection-start-line="316" selection-start-column="32" selection-end-line="316" selection-end-column="32" />
               <folding>
                 <element signature="e#36#56#0" expanded="true" />
               </folding>
@@ -62,31 +57,11 @@
       <file leaf-file-name="retriever.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/AQ_luozhen/retriever/retriever.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="333">
-              <caret line="62" column="24" lean-forward="false" selection-start-line="62" selection-start-column="24" selection-end-line="62" selection-end-column="24" />
+            <state relative-caret-position="246">
+              <caret line="53" column="30" lean-forward="true" selection-start-line="53" selection-start-column="30" selection-end-line="53" selection-end-column="30" />
               <folding>
                 <element signature="e#30#39#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="tnb2.txt" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/AQ_luozhen/data/tnb2.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-342">
-              <caret line="7" column="68" lean-forward="false" selection-start-line="7" selection-start-column="68" selection-end-line="7" selection-end-column="68" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="fr-en-small.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gluon-tutorials/data/fr-en-small.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="16" lean-forward="true" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -112,10 +87,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>胰岛素</find>
-      <find>&quot;</find>
-      <find>1型糖尿病</find>
-      <find>tokenize</find>
       <find>SeqAttnMatch</find>
       <find>get_doc_freqs</find>
       <find>qemb_match</find>
@@ -142,6 +113,10 @@
       <find>tf</find>
       <find>idf</find>
       <find>schema</find>
+      <find>user_dict_file</find>
+      <find>seqs</find>
+      <find>exp</find>
+      <find>plt</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -199,8 +174,8 @@
         <option value="$PROJECT_DIR$/AQ_luozhen/data/tnb.txt" />
         <option value="$PROJECT_DIR$/AQ_luozhen/retriever/retriever.py" />
         <option value="$PROJECT_DIR$/AQ_luozhen/sentence/split_handle.py" />
-        <option value="$PROJECT_DIR$/gluon-tutorials/utils.py" />
         <option value="$PROJECT_DIR$/AQ_luozhen/data/tnb2.txt" />
+        <option value="$PROJECT_DIR$/gluon-tutorials/utils.py" />
       </list>
     </option>
   </component>
@@ -1116,26 +1091,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AQ_luozhen/retriever/retriever.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="333">
-          <caret line="62" column="24" lean-forward="false" selection-start-line="62" selection-start-column="24" selection-end-line="62" selection-end-column="24" />
-          <folding>
-            <element signature="e#30#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gluon-tutorials/utils.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-124">
-          <caret line="350" column="18" lean-forward="false" selection-start-line="350" selection-start-column="6" selection-end-line="350" selection-end-column="18" />
-          <folding>
-            <element signature="e#36#56#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/AQ_luozhen/sentence/split_handle.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -1172,6 +1127,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/AQ_luozhen/data/tnb2.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-342">
+          <caret line="7" column="68" lean-forward="false" selection-start-line="7" selection-start-column="68" selection-end-line="7" selection-end-column="68" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/gluon-tutorials/data/fr-en-small.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -1180,11 +1143,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AQ_luozhen/data/tnb2.txt">
+    <entry file="file://$PROJECT_DIR$/AQ_luozhen/retriever/retriever.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-342">
-          <caret line="7" column="68" lean-forward="false" selection-start-line="7" selection-start-column="68" selection-end-line="7" selection-end-column="68" />
-          <folding />
+        <state relative-caret-position="246">
+          <caret line="53" column="30" lean-forward="true" selection-start-line="53" selection-start-column="30" selection-end-line="53" selection-end-column="30" />
+          <folding>
+            <element signature="e#30#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gluon-tutorials/utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="331">
+          <caret line="316" column="32" lean-forward="false" selection-start-line="316" selection-start-column="32" selection-end-line="316" selection-end-column="32" />
+          <folding>
+            <element signature="e#36#56#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
