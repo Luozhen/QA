@@ -5,10 +5,7 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DeepQA" afterPath="$PROJECT_DIR$/DeepQA" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DrQA" afterPath="$PROJECT_DIR$/DrQA" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/QA_m1" afterPath="$PROJECT_DIR$/QA_m1" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gluon-tutorials/chapter_natural-language-processing/nmt.ipynb" afterPath="$PROJECT_DIR$/gluon-tutorials/chapter_natural-language-processing/nmt.ipynb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gluon-tutorials/chapter_recurrent-neural-networks/lstm-scratch.ipynb" afterPath="$PROJECT_DIR$/gluon-tutorials/chapter_recurrent-neural-networks/lstm-scratch.ipynb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gluon-tutorials/utils.py" afterPath="$PROJECT_DIR$/gluon-tutorials/utils.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
