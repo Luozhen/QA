@@ -76,11 +76,14 @@ class TermHandle(object):
         return model[word]
 
 if __name__ == "__main__":
-    model_path = "../model/word2vec"
-    termHandle = TermHandle(model_path)
-    model = termHandle.get_model()
-    print "糖尿病 vec:", model['糖尿病']
-    similar_ls = model.wv.most_similar('糖尿病')
-    print "糖尿病 相近："
-    for ele in similar_ls:
-        print ele[0], "score:", ele[1]
+    # model_path = "../model/word2vec"
+    # termHandle = TermHandle(model_path)
+    # model = termHandle.get_model()
+    # print "糖尿病 vec:", model['糖尿病']
+    # similar_ls = model.wv.most_similar('糖尿病')
+    # print "糖尿病 相近："
+    # for ele in similar_ls:
+    #     print ele[0], "score:", ele[1]
+    file_name = "../data/tnb.txt"
+
+    pass

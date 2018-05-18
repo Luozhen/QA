@@ -55,6 +55,7 @@ class Retriever(object):
         # 按照schema定义信息，增加需要建立索引的文档
         # 注意：字符串格式需要为unicode格式
         writer = ix.writer()
+        file_tnb2 = open('../data/tnb2.txt', 'a')
         with open(self.doc_path) as src:
             count = 0
             for line in src:
@@ -62,6 +63,7 @@ class Retriever(object):
                 print space_index
                 title = line[: space_index].strip()
                 content = line[space_index + 1:].strip()
+                file_tnb2.write(title + '\t' + content + '\n')
                 print title
                 print content, "\n"
                 writer.add_document(title=unicode(title), path=unicode(content),
